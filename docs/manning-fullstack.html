@@ -175,6 +175,7 @@ document.getElementById('download_link').click();
 setTimeout(()=>{
 
   document.getElementById("progress-bar-container").style.visibility="hidden"
+  document.getElementById("download-dump").style.visibility="visible"
 },5000);
 
             }
@@ -187,6 +188,7 @@ setTimeout(()=>{
                 document.getElementById("download-dump").addEventListener("click", (evt)=>{
 
                   document.getElementById("progress-bar-container").style.visibility="visible"
+                  document.getElementById("download-dump").style.visibility="hidden"
                   
                   
                     return fetchText("pg.sql").then(data => {
