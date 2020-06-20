@@ -1,2 +1,5 @@
 # manning-live-projects
-  This repository contains dump for manning full stack course
+  This repository contains data dumps & other artifacts for manning live courses
+  
+
+[https://muthuishere.github.io/manning-live-projects/manning-fullstack.html] Full Stack PostGres DB Link Generator
